@@ -1,0 +1,43 @@
+/* ANNOUNCEMENT FEED */
+.announcement-feed-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.announcement-feed {
+    margin-bottom: 15px;
+    padding: 30px; /* Increased padding for more space around the text */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.announcement-feed h5 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.announcement-feed p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.announcement-feed .attachment {
+    margin-top: 8px;
+}
+
+.announcement-feed img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.announcement-feed .date {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 8px;
+    margin-top: -8px; /* Adjusts the spacing between the date and the content */
+}

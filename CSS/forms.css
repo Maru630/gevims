@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #428a03;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.lheader {
+    font-size: 40px;
+    background: #ffffff;
+    text-align: center;
+    padding: 5px;
+    color: #428a03;
+    width: 100%;
+}
+
+.form-selection {
+    margin: 20px 0;
+}
+
+.form-selection label {
+    font-size: 20px;
+    color: white;
+}
+
+.form-selection select {
+    font-size: 20px;
+}
+
+.form-container {
+    display: none;
+    min-height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #428a03;
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: #fff;
+    text-align: center;
+    width: 600px;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #428a03;
+}
+
+.form-container form .form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.form-container form .form-row1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.form-container form .full-width {
+    grid-column: span 3;
+}
+
+.form-container form input,
+.form-container form select {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.form-container form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #eee no-repeat right 0.75rem center/8px 10px;
+}
+
+.form-container form select::-ms-expand {
+    display: none;
+}
+
+.form-container form .form-btn {
+    background: #428a03;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+    background: #729750;
+    color: #fff;
+}
+
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form-container form p a {
+    color: blue;
+}
+
+.form-container form .error-msg {
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.input-pass {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.eye-icon img {
+    width: 100%;
+    height: auto;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 5px;
+}
+
+.copyright {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #428a03;
+    padding: 10px;
+    color: #050505;
+    width: 100%;
+}
+
